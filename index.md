@@ -4,9 +4,10 @@ title: Unscroll privacy policy
 
 # Unscroll privacy policy
 
-Effective 29 October 2026.
+Effective 8 November 2026.
 
-Unscroll is a home screen app for Android with focus tools. This policy explains what it does with
+Unscroll is a focus app for Android and iPhone: on Android a calm home screen with focus tools, on
+iPhone the same focus tools built on Apple's Screen Time. This policy explains what it does with
 information on your phone.
 
 ## Summary
@@ -19,9 +20,12 @@ share any personal information. What you set up stays on your phone.
 - Your home pages: the apps on each page, names you gave them, and the theme.
 - Your focus settings: the apps you limit, Block now's apps and websites, your schedules and options.
 - Running sessions: which limited app you chose time for, and until when.
+- Your week: for each limited app and day, how often it asked for a time, how often you closed it
+  instead and the minutes you chose. Kept for 28 days; you can clear it at any time.
 
-These are kept in Unscroll's private app storage, are not backed up by Unscroll, and are deleted when
-you uninstall Unscroll.
+These are kept in Unscroll's private app storage (on iPhone, a folder shared only with Unscroll's own
+widgets and Screen Time extensions), are not backed up by Unscroll, and are deleted when you
+uninstall Unscroll.
 
 ## The focus guard (Accessibility service)
 
@@ -43,10 +47,24 @@ focus guard off at any time in Android's Accessibility settings.
 - **Seeing installed apps**: to list your apps on the home screen and in the app pickers. The list is
   not stored except for the apps you choose.
 
+## On iPhone
+
+The iPhone version uses Apple's Screen Time instead of an Accessibility service:
+
+- **Screen Time**: Unscroll asks for Screen Time access to cover the apps you chose with a shield and
+  to block apps and websites. Screen Time gives it only tokens for the apps you pick; Unscroll can't
+  tell which apps they are, and can't see what you do in them.
+- **Notifications**: only the one a shield's "Choose a time" sends, to open the time question.
+- **Photos**: add-only, when you choose "Save matching wallpaper", to save a plain image. Unscroll
+  can't see your photos.
+
+As on Android, everything stays on your iPhone and nothing is collected or sent.
+
 ## Links out of the app
 
-Contact support opens a GitHub issues page, and Rate Unscroll opens Google Play, in your
-browser or store app. Those services have their own privacy policies.
+Contact support opens a GitHub issues page, Privacy policy opens this page, and on Android Rate
+Unscroll opens Google Play, in your browser or store app. Those services have their own privacy
+policies.
 
 ## Children
 
